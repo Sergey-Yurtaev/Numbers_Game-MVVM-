@@ -14,7 +14,7 @@ class ResultsGameView: UIView {
     lazy var playerTriesCountLabel = GameLabel(text: "Your's tries count: ")
     lazy var computerTriesCountLabel = GameLabel(text: "Computer's tries count: ")
     lazy var winnerLabel = GameLabel(text: "Win ")
-    lazy var goToMainMenuButton = GameButton(title: "Main menu")
+    lazy var goToMainMenuButton = GameButton(title: "Start over")
     private let gradientLayer = CAGradientLayer()
     
     // MARK: - Override methods
