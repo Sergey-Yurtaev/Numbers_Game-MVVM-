@@ -27,8 +27,8 @@ class EnterNumberViewController: UIViewController {
         
         enterNumberView.guessTheNumberTextField.delegate = self
         
-        enterNumberView.enterTheNumberButton.isUserInteractionEnabled = false
-        enterNumberView.enterTheNumberButton.backgroundColor = #colorLiteral(red: 0.9568627477, green: 0.8036071202, blue: 0.7652545357, alpha: 1)
+        enterNumberView.enterTheNumberButton.isUserInteractionEnabled = true
+        enterNumberView.enterTheNumberButton.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
         enterNumberView.enterTheNumberButton.addTarget(self, action: #selector(enterTheNumberButtonPressed(_:)), for: .touchUpInside)
     }
     
@@ -64,6 +64,10 @@ class EnterNumberViewController: UIViewController {
         
         present(aletrController, animated: true)
     }
+    
+    deinit {
+        print("EnterNumberViewController has been dealocated")
+    }
 }
 
 // MARK: - Dismiss keyboard
@@ -72,7 +76,6 @@ extension EnterNumberViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-    
 }
 
 // MARK: - UITextFieldDelegate
@@ -80,7 +83,6 @@ extension EnterNumberViewController: UITextFieldDelegate {
   
     func textFieldDidEndEditing(_ textField: UITextField) {
         enterNumberView.enterTheNumberButton.isUserInteractionEnabled = true
-        enterNumberView.enterTheNumberButton.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
     }
 
 }

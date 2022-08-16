@@ -49,6 +49,7 @@ class PlayerGuessesNumberViewController: UIViewController {
     private func validateResponse(responce: NumberValid) {
         if responce != .equal {
             playerGuessesNumberView.resultLabel.text = "No, my number is \(responce.rawValue) than yours"
+            playerGuessesNumberView.guessTheNumberTextField.text = ""
         } else {
             goToResultView()
         }

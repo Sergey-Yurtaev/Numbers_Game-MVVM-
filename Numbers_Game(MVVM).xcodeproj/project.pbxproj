@@ -94,10 +94,10 @@
 		A1DE35BD28AB6ABE00EC2277 /* Numbers_Game(MVVM) */ = {
 			isa = PBXGroup;
 			children = (
-				A14C1A6028ABA7F900583A36 /* Resources */,
-				A1DE35D528AB6C8900EC2277 /* Models */,
 				A1DE35D628AB6C8B00EC2277 /* Views */,
 				A1DE35D728AB6C8E00EC2277 /* ViewModels */,
+				A1DE35D528AB6C8900EC2277 /* Models */,
+				A14C1A6028ABA7F900583A36 /* Resources */,
 				A1DE35D428AB6C8600EC2277 /* SupportingFiles */,
 				A1DE35D328AB6C8400EC2277 /* Application */,
 			);

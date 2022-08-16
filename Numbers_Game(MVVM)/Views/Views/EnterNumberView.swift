@@ -11,7 +11,7 @@ class EnterNumberView: UIView {
     
     // MARK: - Private properties
     lazy var guessTheNumberTextField = NumberTextField()
-    lazy var enterTheNumberButton = GameButton(title: "Enter the Number")
+    lazy var enterTheNumberButton = GameButton(title: "Enter")
     private let gradientLayer = CAGradientLayer()
 
     // MARK: - Ovveride methods
@@ -53,7 +53,7 @@ class EnterNumberView: UIView {
             enterTheNumberButton.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor),
             enterTheNumberButton.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 20),
             enterTheNumberButton.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -20),
-            enterTheNumberButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -50)
+            enterTheNumberButton.bottomAnchor.constraint(equalTo: guessTheNumberTextField.bottomAnchor, constant: 100)
         ])
     }
 }

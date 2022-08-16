@@ -83,4 +83,8 @@ class ComputerGuessesNumberViewController: UIViewController {
         present(viewController, animated: true)
     }
     
+    deinit {
+        print("ComputerGuessesNumberViewController has been dealocated")
+    }
+    
 }
