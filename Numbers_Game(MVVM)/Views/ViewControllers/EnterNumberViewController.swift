@@ -24,10 +24,7 @@ class EnterNumberViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        enterNumberView.guessTheNumberTextField.delegate = self
-        
-        enterNumberView.enterTheNumberButton.isUserInteractionEnabled = true
+
         enterNumberView.enterTheNumberButton.backgroundColor = #colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1)
         enterNumberView.enterTheNumberButton.addTarget(self, action: #selector(enterTheNumberButtonPressed(_:)), for: .touchUpInside)
     }
@@ -76,13 +73,4 @@ extension EnterNumberViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-}
-
-// MARK: - UITextFieldDelegate
-extension EnterNumberViewController: UITextFieldDelegate {
-  
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        enterNumberView.enterTheNumberButton.isUserInteractionEnabled = true
-    }
-
 }
