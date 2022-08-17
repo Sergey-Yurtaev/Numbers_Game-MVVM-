@@ -24,7 +24,7 @@
 		A1DE35F128AB771000EC2277 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE35F028AB771000EC2277 /* NumberTextField.swift */; };
 		A1DE35F328AB771D00EC2277 /* GameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE35F228AB771D00EC2277 /* GameLabel.swift */; };
 		A1DE35F528AB774300EC2277 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE35F428AB774300EC2277 /* AlertController.swift */; };
-		A1DE35F728AB77BE00EC2277 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE35F628AB77BE00EC2277 /* Game.swift */; };
+		A1DE35F728AB77BE00EC2277 /* GuessTheNumberGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE35F628AB77BE00EC2277 /* GuessTheNumberGame.swift */; };
 		A1DE35F928AB77D600EC2277 /* Guesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE35F828AB77D600EC2277 /* Guesser.swift */; };
 		A1DE35FB28AB77E500EC2277 /* NumberValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE35FA28AB77E500EC2277 /* NumberValid.swift */; };
 		A1DE35FD28AB783500EC2277 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE35FC28AB783400EC2277 /* GameViewModel.swift */; };
@@ -50,7 +50,7 @@
 		A1DE35F028AB771000EC2277 /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
 		A1DE35F228AB771D00EC2277 /* GameLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLabel.swift; sourceTree = "<group>"; };
 		A1DE35F428AB774300EC2277 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
-		A1DE35F628AB77BE00EC2277 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A1DE35F628AB77BE00EC2277 /* GuessTheNumberGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberGame.swift; sourceTree = "<group>"; };
 		A1DE35F828AB77D600EC2277 /* Guesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesser.swift; sourceTree = "<group>"; };
 		A1DE35FA28AB77E500EC2277 /* NumberValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberValid.swift; sourceTree = "<group>"; };
 		A1DE35FC28AB783400EC2277 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		A1DE35D528AB6C8900EC2277 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A1DE35F628AB77BE00EC2277 /* Game.swift */,
+				A1DE35F628AB77BE00EC2277 /* GuessTheNumberGame.swift */,
 				A1DE35F828AB77D600EC2277 /* Guesser.swift */,
 				A1DE35FA28AB77E500EC2277 /* NumberValid.swift */,
 			);
@@ -269,7 +269,7 @@
 				A1DE35F528AB774300EC2277 /* AlertController.swift in Sources */,
 				A1DE35EA28AB74F700EC2277 /* PlayerGuessesNumberView.swift in Sources */,
 				A1DE35DA28AB730500EC2277 /* StartGameViewController.swift in Sources */,
-				A1DE35F728AB77BE00EC2277 /* Game.swift in Sources */,
+				A1DE35F728AB77BE00EC2277 /* GuessTheNumberGame.swift in Sources */,
 				A1DE35EF28AB770400EC2277 /* GameButton.swift in Sources */,
 				A1DE35E628AB74BB00EC2277 /* EnterNumberView.swift in Sources */,
 				A1DE35F328AB771D00EC2277 /* GameLabel.swift in Sources */,

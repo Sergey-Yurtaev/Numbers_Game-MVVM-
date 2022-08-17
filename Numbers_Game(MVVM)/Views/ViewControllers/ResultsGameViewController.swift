@@ -39,16 +39,16 @@ class ResultsGameViewController: UIViewController {
         
         resultGameView.playerTriesCountLabel.text = "Your's tries count: \(playerTriesConut)"
         resultGameView.computerTriesCountLabel.text = "Computer's tries count: \(computerTriesCount)"
-        resultGameView.winnerLabel.text = winner
+        resultGameView.winnerLabel.text = playerTriesConut == computerTriesCount ? "Friendship won" : winner
     }
     
     // MARK: - @objc methods
     @objc private func goToMainMenuButtonPressed(_ sender: UIButton) {
-        goToMainMenu()
+        goToStart()
     }
     
     // MARK: - Navigation
-    private func goToMainMenu() {
+    private func goToStart() {
         self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
     }
     
