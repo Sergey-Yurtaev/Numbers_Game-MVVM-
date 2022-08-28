@@ -1,5 +1,5 @@
 # Numbers Game
-![Uploading game.gif…]()
+![Uploading game.gif]
 
 ## Description
 
