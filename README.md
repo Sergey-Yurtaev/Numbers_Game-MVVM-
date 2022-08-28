@@ -1,5 +1,7 @@
 # Numbers Game
-![Uploading game.gif]
+![game](https://user-images.githubusercontent.com/69955420/187092403-8855b7e9-52ee-494c-99ab-046549060258.gif))
+
+
 
 ## Description
 
